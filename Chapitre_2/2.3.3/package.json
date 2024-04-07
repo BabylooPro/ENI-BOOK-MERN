@@ -1,14 +1,23 @@
 {
   "name": "chapitre_2",
   "version": "1.0.0",
-  "description": "",
+  "description": "Une simple application Node.js utilisant Express et Nodemon.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BabylooPro/ENI-BOOK-MERN.git"
+  },
+  "keywords": ["node", "express", "web"],
+  "author": "Max Remy",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }

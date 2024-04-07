@@ -1,18 +1,27 @@
 {
   "name": "chapitre_2",
   "version": "1.0.0",
-  "description": "",
+  "description": "Une simple application Node.js utilisant Express, Nodemon, Body-parser, Cors, Helmet et Morgan.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BabylooPro/ENI-BOOK-MERN.git"
+  },
+  "keywords": ["node", "express", "web"],
+  "author": "Max Remy",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.19.1",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
-    "express": "^4.19.2",
     "helmet": "^7.1.0",
     "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
