@@ -1,0 +1,41 @@
+{
+  "name": "chapitre_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BabylooPro/ENI-BOOK-MERN.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "web"
+  ],
+  "author": "Max Remy",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.1",
+    "helmet": "^7.1.0",
+    "joi": "^17.12.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.4",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.7.3",
+    "nodemon": "^3.1.0",
+    "supertest": "^7.0.0"
+  }
+}
