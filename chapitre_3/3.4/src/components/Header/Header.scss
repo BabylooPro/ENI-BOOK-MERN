@@ -1,0 +1,9 @@
+// Importer les variables de couleurs
+@import '../../styles/variables';
+
+.header {
+  background-color: $primary-color;
+  color: $background-color;
+  padding: 20px;
+  text-align: center;
+}

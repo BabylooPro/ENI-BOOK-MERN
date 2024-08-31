@@ -1,0 +1,25 @@
+// Importer les variables de couleurs
+@import 'variables';
+
+// Styles globaux pour l'application
+body {
+  background-color: $background-color;
+  color: $text-color;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $primary-color;
+  margin: 0 0 15px 0;
+}
+
+a {
+  color: $secondary-color;
+  text-decoration: none;
+
+  &:hover {
+    color: darken($secondary-color, 10%);
+  }
+}

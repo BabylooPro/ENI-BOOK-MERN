@@ -1,0 +1,9 @@
+// Importer les variables de couleurs
+@import '../../styles/variables';
+
+.footer {
+  background-color: $secondary-color;
+  color: $background-color;
+  padding: 10px;
+  text-align: center;
+}

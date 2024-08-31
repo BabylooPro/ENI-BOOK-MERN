@@ -1,0 +1,19 @@
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$button-padding: 10px 20px;
+$border-radius: 5px;
+
+.custom-button {
+  background-color: $primary-color;
+  color: white;
+  padding: $button-padding;
+  border: none;
+  border-radius: $border-radius;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: $secondary-color;
+  }
+}
