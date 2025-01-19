@@ -8,9 +8,9 @@ const genererUtilisateursAleatoires = async (nombre) => {
 
 	for (let i = 0; i < nombre; i++) {
 		const utilisateur = {
-			nom: faker.person.fullName(), // Utilisation de faker.person.fullName()
+			nom: faker.person.fullName(),
 			email: faker.internet.email(),
-			motDePasse: faker.internet.password(8), // Générer un mot de passe aléatoire de 8 caractères
+			motDePasse: faker.string.alphanumeric(8), // Génère un mot de passe aléatoire de 8 caractères alphanumériques
 			dateDeNaissance: faker.date.past({
 				years: 50,
 				refDate: new Date("2003-01-01"),
