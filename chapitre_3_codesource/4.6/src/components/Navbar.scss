@@ -57,8 +57,16 @@
       width: 100%;
     }
 
-    &__item {
+    > .navbar__item {
       margin-left: 20px;
+      position: relative;
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+
+    &__item {
       position: relative;
 
       &:first-child {
